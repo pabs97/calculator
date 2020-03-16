@@ -1,0 +1,49 @@
+body {
+  /* background-color: green; */
+  
+}
+#root {
+  /* height: 100vh;
+  width: 100vw;
+  display: flex;   */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.calculatorSection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 12em;
+
+  /* align-self: center; */
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.displaySection {
+  width: 100%;
+  background: lightblue;
+  font-size: 2em;
+  text-align: right;
+  padding: 0 0.25em;
+}
+
+.numbersSection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  width: 9em;
+}
+
+.operatorsSection {
+  width: 3em;
+}
+
+.button {
+  width: 3em;
+  height: 3em;
+}
